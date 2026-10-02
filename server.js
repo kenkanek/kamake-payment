@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const ZIBAL_MERCHANT = "6a7e0893252887bfd5c024db";
-const ZIBAL_API = "https://gateway.zibal.ir/v1";
+const ZIBAL_API = "https://gateway.zibal.io/v1";
 
 app.post('/api/payment/request', async (req, res) => {
     try {
